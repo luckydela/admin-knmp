@@ -7,7 +7,6 @@ function App() {
    <Router>
      <Routes>
      <Route path="*" name="dashboard" element={<Applayout />} />
-
      </Routes>
    </Router>
   );

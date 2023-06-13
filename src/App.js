@@ -1,12 +1,12 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Topbar from './components/topbar/Topbar';
+import Applayout from './components/layout/Applayout';
 
 function App() {
   return (
    <Router>
      <Routes>
-     <Route path="*" name="dashboard" element={<Topbar />} />
+     <Route path="*" name="dashboard" element={<Applayout />} />
 
      </Routes>
    </Router>

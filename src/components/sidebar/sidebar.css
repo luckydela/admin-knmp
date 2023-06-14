@@ -1,9 +1,9 @@
 .sidebar {
   flex: 1;
-  height: calc(100vh - 50px);
-  background-color: rgb(13, 89, 133);
-  position: sticky;
-  top: 50px;
+  height: calc(100vh - 30px);
+  background-color: #0d5985;
+  position: fixed;
+  /* top: 0; */
   font-family: 'Nunito', sans;
   font-size: 20px;
   text-decoration: none;
@@ -21,12 +21,14 @@
 
 .sidebarTitle {
   font-size: 13px;
-  color: rgb(187, 186, 186);
+  color: #bbbaba;
 }
 
 .sidebarList {
   list-style: none;
   padding: 5px;
+  font-size: 18px;
+  color: #fff;
 }
 
 .sidebarListItem {
@@ -35,11 +37,13 @@
   display: flex;
   align-items: center;
   border-radius: 10px;
+  text-decoration: none;
+  color: #fff;
 }
 
 .sidebarListItem.active,
 .sidebarListItem:hover {
-  background-color: rgb(240, 240, 255);
+  background-color: #04044b;
 }
 
 .sidebarIcon{

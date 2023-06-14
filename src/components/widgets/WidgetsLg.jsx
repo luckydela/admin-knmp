@@ -1,5 +1,6 @@
 import React from 'react'
 import './widgetslg.css'
+import user from '../../assets/user.png'
 
 const WidgetsLg = () => {
     const Button = ({ type }) => {
@@ -11,6 +12,8 @@ const WidgetsLg = () => {
           <table className="widgetLgTable">
             <tr className="widgetLgTr">
               <th className="widgetLgTh">Customer</th>
+              <th className="widgetLgTh">No. of ticket</th>
+              <th className='widgetLgTh'>Ticket number</th>
               <th className="widgetLgTh">Date</th>
               <th className="widgetLgTh">Amount</th>
               <th className="widgetLgTh">Status</th>
@@ -18,12 +21,14 @@ const WidgetsLg = () => {
             <tr className="widgetLgTr">
               <td className="widgetLgUser">
                 <img
-                  src="https://images.pexels.com/photos/4172933/pexels-photo-4172933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                  src={user}
                   alt=""
                   className="widgetLgImg"
                 />
                 <span className="widgetLgName">Susan Carol</span>
               </td>
+              <td className="widgetLgDate">2</td>
+              <td className="widgetLgDate">knmp2033423</td>
               <td className="widgetLgDate">2 Jun 2021</td>
               <td className="widgetLgAmount">GHC122.00</td>
               <td className="widgetLgStatus">
@@ -32,13 +37,15 @@ const WidgetsLg = () => {
             </tr>
             <tr className="widgetLgTr">
               <td className="widgetLgUser">
-                <img
-                  src="https://images.pexels.com/photos/4172933/pexels-photo-4172933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              <img
+                  src={user}
                   alt=""
                   className="widgetLgImg"
                 />
                 <span className="widgetLgName">Susan Carol</span>
               </td>
+              <td className="widgetLgDate">2</td>
+              <td className="widgetLgDate">knmp0012123</td>
               <td className="widgetLgDate">2 Jun 2021</td>
               <td className="widgetLgAmount">GHC122.00</td>
               <td className="widgetLgStatus">
@@ -47,13 +54,15 @@ const WidgetsLg = () => {
             </tr>
             <tr className="widgetLgTr">
               <td className="widgetLgUser">
-                <img
-                  src="https://images.pexels.com/photos/4172933/pexels-photo-4172933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              <img
+                  src={user}
                   alt=""
                   className="widgetLgImg"
                 />
                 <span className="widgetLgName">Susan Carol</span>
-              </td>
+              </td>  
+              <td className="widgetLgDate">2</td>
+              <td className="widgetLgDate">knmp5050323</td>
               <td className="widgetLgDate">2 Jun 2021</td>
               <td className="widgetLgAmount">GHC122.00</td>
               <td className="widgetLgStatus">

@@ -49,10 +49,10 @@
       margin-left: 20px;
   }
   
-  .featuredIcon{
-      font-size: 14px;
-      margin-left: 5px;
-      color: green;
+  #featuredIcon{
+      font-size: 40px;
+      margin-left: 100px;
+      color: #0f5842;
   }
   
   .featuredIcon.negative{
@@ -61,5 +61,6 @@
   
   .featuredSub{
       font-size: 15px;
-      color: gray;
+      color: #caf5ec;
+      letter-spacing: 5px;
   }

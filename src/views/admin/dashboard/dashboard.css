@@ -1,7 +1,8 @@
 .home{
     flex: 4;
-    background-color: #dfdede;
+    background-color: #f3f2f2;
     font-family: 'Nunito', sans;
+    margin: 0 0 0 150px;
 }
 
 .homeWidgets{

@@ -13,6 +13,20 @@
     -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
   }
+  .card1{
+    background-color: #22c997;
+    color: #ffff;
+  }
+  .card2{
+    background-color: #cd9e4d;
+    color: #ffff;
+
+  }
+  .card3{
+    background-color: #ae76a9;
+    color: #ffff;
+
+  }
   
   .featuredTitle{
       font-size: 20px;
